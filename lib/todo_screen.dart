@@ -16,7 +16,7 @@ class _TodoScreenState extends State<TodoScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('Todos')),
+      appBar: AppBar(title: Text('Todo app')),
       body: Padding(
         padding: const EdgeInsets.all(8.0),
         child: Column(
